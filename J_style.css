@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+label{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+input:placeholder-shown{
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+nav{
+    font-size: 30px;
+    padding: 0 20px;
+    background-color: rgb(38, 32, 44);
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.container{
+    padding: 20px;
+    margin-left: 10px;
+    position: relative;
+}
+
+input{
+    padding: 10px 0 ;
+    width: 100%;
+    font-size: 18px;
+    border: 0;
+    border-bottom: 2px solid rgb(38, 32, 44);
+    background-color: transparent;
+}
+
+.sub-btn{
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 1px #000;
+    background-color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    right: 25px;
+}
+
+.form-elem{
+    padding: 5px;
+}
+
+.box{
+    padding: 1rem 1.5rem 1rem;
+    width: 20rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    margin: 5px 5px;
+}
+.box h3{
+    font-size: 1.9rem;
+    padding-bottom: 7px;
+    position: relative;
+    display: inline;
+}
+.box p{
+    font-size: 1.3rem;
+    padding: 1rem 0;
+}
+
+.del-btn{
+    padding: 8px 15px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+   
+
+#your-notes{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem 2rem 2rem 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
